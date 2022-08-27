@@ -1,0 +1,79 @@
+@font-face {
+  src: url(/Font/Poppins-Bold.ttf);
+  font-family: PoppinsBold;
+}
+
+@font-face {
+  src: url(/Font/Poppins-Light.ttf);
+  font-family: PoppinsLight;
+}
+
+@font-face {
+  src: url(/Font/Poppins-Regular.ttf);
+  font-family: Poppins-Regular;
+}
+
+@font-face {
+  src: url(/Font/Poppins-LightItalic.ttf);
+  font-family: PoppinsLightItalic;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 170px 0px;
+}
+
+p,
+h2,
+h6,
+.btn,
+display-6 {
+  font-family: PoppinsLight;
+}
+.card-body {
+  font-family: PoppinsLight;
+}
+
+h1,
+h4,
+.navbar-brand {
+  font-family: PoppinsBold;
+}
+
+h3 {
+  font-family: PoppinsBold;
+}
+
+h5 {
+  font-family: PoppinsLightItalic;
+}
+
+nav {
+  font-family: Poppins-Regular;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+  max-width: 280px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #777;
+  border-color: #fff;
+}
