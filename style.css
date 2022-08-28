@@ -26,8 +26,8 @@
 }
 
 section {
-  padding: 160px 0px;
-  margin: 0px;
+  padding: 155px 0px;
+  overflow-x: hidden;
 }
 
 p,
