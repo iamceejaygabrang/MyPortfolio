@@ -26,8 +26,21 @@
 }
 
 section {
-  padding: 160px 0px;
+  padding: 60px 0px;
   overflow-x: hidden;
+}
+
+#intro {
+  padding-top: 160px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#ContactMePage {
+  padding-top: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 p,
